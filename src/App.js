@@ -81,7 +81,9 @@ function App() {
       <Navigation query={query} handleInputChange={handleInputChange} />
       <Recommended handleClick={handleClick} />
       <Products result={result} />
+   <div>a project by yogeshpoulpatil </div>
     </CartProvider>
+   
   );
 }
 
